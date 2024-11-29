@@ -3,13 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Portfólio de Eduardo Sales</title>
+    <style>
+        /* Estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(to bottom, #1a1a1a, #333);
+            color: #fff;
+            padding: 0 15px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #aaa;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            background: #222;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 3px;
+            transition: background 0.3s;
+        }
+        nav ul li a:hover {
+            background: #444;
+        }
+        section {
+            margin: 50px 0;
+            padding: 20px;
+            background: #222;
+            border-radius: 5px;
+        }
+        section h2 {
+            margin-bottom: 20px;
+            color: #ffa500;
+        }
+        section p, section ul {
+            margin-bottom: 20px;
+        }
+        section ul li {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 10px;
+            background: #111;
+            color: #aaa;
+        }
+        footer a {
+            color: #ffa500;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Olá, eu sou [Seu Nome]</h1>
-        <p>Desenvolvedor Frontend | Entusiasta de Tecnologia</p>
+        <h1>Eduardo Sales</h1>
+        <p>Desenvolvedor Full Stack | Entusiasta de Tecnologia</p>
     </header>
     <nav>
         <ul>
@@ -20,24 +94,29 @@
     </nav>
     <section id="sobre">
         <h2>Sobre Mim</h2>
-        <p>Breve descrição sobre você, suas habilidades e experiência.</p>
-        <img src="assets/images/profile.jpg" alt="Foto do Perfil">
+        <p>
+            Sou formado em Análise e Desenvolvimento de Sistemas, com experiência em desenvolvimento Full Stack. Tenho conhecimentos em Java, Python, PHP, React, Node.js, e integrações em sistemas de banco de dados como PostgreSQL e MongoDB. Também tenho experiência em desenvolvimento mobile para Android com Java.
+        </p>
+        <p>
+            Atualmente, trabalho como analista na UNI, onde atuo em projetos que envolvem desenvolvimento de sistemas, análise de dados e automação de processos para melhorar a eficiência organizacional.
+        </p>
     </section>
     <section id="projetos">
         <h2>Meus Projetos</h2>
         <ul>
-            <li><a href="https://github.com/seu-usuario/projeto-1" target="_blank">Projeto 1</a></li>
-            <li><a href="https://github.com/seu-usuario/projeto-2" target="_blank">Projeto 2</a></li>
+            <li><a href="https://github.com/eduardo-sales/pet-shop-caramelos" target="_blank">Pet Shop Caramelo's</a> - Sistema completo de gestão de pet shop, desenvolvido com Java, Spring Boot e PostgreSQL.</li>
+            <li><a href="https://github.com/eduardo-sales/cadastro-pessoas" target="_blank">Cadastro de Pessoas</a> - Sistema de cadastro utilizando PHP e armazenamento em JSON, com suporte a AJAX.</li>
+            <li><a href="https://github.com/eduardo-sales/android-calculator" target="_blank">Calculadora Android</a> - Aplicativo de calculadora moderna, desenvolvido para Android em Java.</li>
         </ul>
     </section>
     <section id="contato">
         <h2>Contato</h2>
-        <p>Email: <a href="mailto:seuemail@email.com">seuemail@email.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/seu-perfil" target="_blank">Seu Perfil</a></p>
+        <p>Email: <a href="mailto:eduardosalesrodriguesgo@gmail.com">eduardosalesrodriguesgo@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/eduardo-rodrigues-sales-ba0b95292/" target="_blank">https://www.linkedin.com/in/eduardo-rodrigues-sales-ba0b95292/</a></p>
+        <p>Telefone: (62) 99965-0752</p>
     </section>
     <footer>
-        <p>&copy; 2024 [Seu Nome]. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Eduardo Sales. Todos os direitos reservados.</p>
     </footer>
-    <script src="js/script.js"></script>
 </body>
 </html>
